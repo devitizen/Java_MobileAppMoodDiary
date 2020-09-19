@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Mood Diary</string>
+
+    <string name="tab_title1">List</string>
+    <string name="tab_title2">New</string>
+    <string name="tab_title3">Stat</string>
+
+    <string name="weather_string">Weather</string>
+    <string name="today_date_string">Mon, Jan 01</string>
+    <string name="today_greeting_string">How are you today?</string>
+
+    <string name="address_string">Your Location</string>
+    <string name="input_contents_hint">Start writing here</string>
+    <string name="save_button">Save</string>
+    <string name="delete_button">Delete</string>
+    <string name="close_button">Close</string>
+    <string name="done_button">Done</string>
+    <string name="num_letters">00 / 180 letters</string>
+
+    <string name="graph1_title">Ratio by Mood (%, 1 month)</string>
+    <string name="graph2_title">Average Mood Score by Days (1 month)</string>
+    <string name="graph3_title">Mood Score Daily Trend (1 week)</string>
+
+    <string name="msg01">New page is added.</string>
+    <string name="msg02">No page is added.</string>
+    <string name="msg03">The page is revised.</string>
+    <string name="msg04">The page is deleted.</string>
+
+    <string name="alert_Message_01">Do you want to finish this app?</string>
+    <string name="alert_Button_01">Yes</string>
+    <string name="alert_Button_02">No</string>
+
+    <string name="alert_Message_02">How do you select photo?</string>
+    <string name="alert_Button_03">Select</string>
+    <string name="alert_Button_04">Cancel</string>
+
+    <string name="text_view_page">page</string>
+    <string name="text_view_page2">previous</string>
+    <string name="text_view_page3">next</string>
+</resources>

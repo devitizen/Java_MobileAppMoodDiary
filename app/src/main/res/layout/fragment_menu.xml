@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp" >
+
+        <TextView
+            android:id="@+id/textViewTodayDate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:text="@string/today_date_string"
+            android:textColor="@color/colorFont"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/mainfont" />
+
+        <TextView
+            android:id="@+id/textViewTodayDate2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:text="@string/today_date_string"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorFont"
+            app:fontFamily="@font/mainfont" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="12dp" >
+
+        <Button
+            android:id="@+id/buttonViewMenu1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/menu_button2"
+            android:text="@string/tab_title1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            app:fontFamily="@font/mainfont" />
+        <Button
+            android:id="@+id/buttonViewMenu3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/menu_button"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/tab_title3"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            app:fontFamily="@font/mainfont"/>
+
+        <Button
+            android:id="@+id/buttonViewMenu2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/menu_button"
+            android:text="@string/tab_title2"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            app:fontFamily="@font/mainfont" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

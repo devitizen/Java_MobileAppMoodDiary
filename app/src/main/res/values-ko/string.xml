@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mood Diary</string>
+
+    <string name="tab_title1">목록</string>
+    <string name="tab_title2">작성</string>
+    <string name="tab_title3">통계</string>
+
+    <string name="weather_string">맑음</string>
+    <string name="today_date_string">1월 1일 월요일</string>
+    <string name="today_greeting_string">안녕하세요.</string>
+
+    <string name="address_string">현재 위치</string>
+    <string name="input_contents_hint">여기에 작성하세요.</string>
+    <string name="save_button">저장</string>
+    <string name="delete_button">삭제</string>
+    <string name="close_button">닫기</string>
+    <string name="done_button">입력완료</string>
+    <string name="num_letters">00 / 90자</string>
+
+    <string name="graph1_title">기분별 비율 (%, 1개월간)</string>
+    <string name="graph2_title">요일별 평균 기분 점수 (1개월간)</string>
+    <string name="graph3_title">기분 점수 추이 (1주간)</string>
+
+    <string name="msg01">새로운 페이지가 추가되었습니다.</string>
+    <string name="msg02">페이지가 추가되지 않았습니다.</string>
+    <string name="msg03">페이지가 수정되었습니다.</string>
+    <string name="msg04">페이지가 삭제되었습니다.</string>
+
+    <string name="alert_Message_01">종료하시겠습니까?</string>
+    <string name="alert_Button_01">예</string>
+    <string name="alert_Button_02">아니오</string>
+
+    <string name="alert_Message_02">사진을 어떻게 선택하시겠습니까?</string>
+    <string name="alert_Button_03">선택</string>
+    <string name="alert_Button_04">취소</string>
+
+    <string name="text_view_page">페이지</string>
+    <string name="text_view_page2">이전</string>
+    <string name="text_view_page3">다음</string>
+</resources>

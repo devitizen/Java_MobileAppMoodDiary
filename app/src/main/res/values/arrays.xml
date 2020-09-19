@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="switch_tabs">
+        <item>Contents</item>
+        <item>Pictures</item>
+    </string-array>
+
+    <string-array name="switch_days">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+
+    <string-array name="array_photo">
+        <item>Take picture</item>
+        <item>Select from Album</item>
+    </string-array>
+
+    <string-array name="array_photo_ex">
+        <item>Take picture</item>
+        <item>Select from Album</item>
+        <item>Delete picture</item>
+    </string-array>
+
+</resources>

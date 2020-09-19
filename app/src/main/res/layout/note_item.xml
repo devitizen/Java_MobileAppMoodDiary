@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/contentsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/pictureExistsImageView"
+                android:layout_marginRight="12dp"
+                android:text="Contents"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorFont"
+                app:fontFamily="@font/mainfont"/>
+            <ImageView
+                android:id="@+id/pictureExistsImageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical" />
+<!--                app:srcCompat="@drawable/picture_128" />-->
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" >
+            <TextView
+                android:id="@+id/dateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/today_date_string"
+                android:textSize="12sp"
+                android:textColor="@color/colorFont"
+                app:fontFamily="@font/mainfont" />
+            <ImageView
+                android:id="@+id/moodImageView"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/dateTextView"
+                android:src="@drawable/smile5_48" />
+            <TextView
+                android:id="@+id/locationTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/weatherImageView"
+                android:text="@string/address_string"
+                android:textSize="12sp"
+                android:textColor="@color/colorFont"
+                app:fontFamily="@font/mainfont" />
+            <ImageView
+                android:id="@+id/weatherImageView"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/w01d"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/pictureImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:padding="4dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+            <TextView
+                android:id="@+id/contentsTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contents"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorFont"
+                app:fontFamily="@font/mainfont" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp" >
+                <TextView
+                    android:id="@+id/dateTextView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/today_date_string"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorFont"
+                    app:fontFamily="@font/mainfont" />
+
+                <ImageView
+                    android:id="@+id/moodImageView2"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/dateTextView2"
+                    app:srcCompat="@drawable/smile5_48"/>
+                <TextView
+                    android:id="@+id/locationTextView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/weatherImageView2"
+                    android:layout_marginRight="2dp"
+                    android:layout_centerVertical="true"
+                    android:text="@string/address_string"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorFont"
+                    app:fontFamily="@font/mainfont" />
+                <ImageView
+                    android:id="@+id/weatherImageView2"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/w01d" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
